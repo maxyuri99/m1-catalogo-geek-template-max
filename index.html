@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
-    <title>Catalogo Geek</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>Catalogo Geek</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-          <div class="container">
-            <img src="logo.svg" alt="Logo do Catálogo Geek" class="logo">
-            <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Paintings</a></li>
-              <li><a href="#">Action Figures</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    
-    <main>
-        <section class="paintings">
-          <div class="container">
-            <h2>Paintings</h2>
-            <ul class="product-list">
-              <!-- A lista de produtos será preenchida dinamicamente pelo JavaScript -->
-            </ul>
-          </div>
-        </section>
-    
-        <section class="action-figures">
-          <div class="container">
-            <h2>Action Figures</h2>
-            <ul class="product-list">
-              <!-- A lista de produtos será preenchida dinamicamente pelo JavaScript -->
-            </ul>
-          </div>
-        </section>
-    </main>   
+  <header>
+    <section class="container">
+      <img src="logo.svg" alt="Logo do Catálogo Geek" class="logo-geek">
+      <ul class="menu">
+        <li><button class="button">Products</button></li>
+        <li><button class="button">Contact</button></li>
+      </ul>
+    </section>
+  </header>
+  <main>
+    <section class="paintings">
+      <h2>Paintings</h2>
+      <ul class="product-list" id="paintings-list">
+        <!-- A lista de produtos será preenchida dinamicamente pelo JavaScript -->
+      </ul>
+    </section>
+    <section class="action-figures">
+      <h2>Action Figures</h2>
+      <ul class="product-list" id="action-figures-list">
+        <!-- A lista de produtos será preenchida dinamicamente pelo JavaScript -->
+      </ul>
+    </section>
+  </main>
 </body>
+
 </html>
